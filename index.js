@@ -184,5 +184,5 @@ async function runWidgetJob() {
 // first start
 runWidgetJob();
 
-// run every 30 min
+// run every INTERVAL_MIN min
 setInterval(runWidgetJob, INTERVAL_MIN * 60 * 1000);
